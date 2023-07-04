@@ -1,0 +1,52 @@
+*{
+    
+font-family: 'Ruda', sans-serif;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.header{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+    z-index: 1000;
+    top: 0;
+    background-color: #000;
+    color: #fff;
+    height: 65px;
+    align-items: center;
+}
+.header .title, .header .icons{
+    margin: 0px 35px;
+}
+.header .title{
+    font-size: 20px;
+}
+.header .nav-items{
+    display: flex;
+    text-transform: uppercase;
+    column-gap: 15px;
+}
+.nav-items .items a{
+    color: white;
+    text-decoration: none;
+}
+.header .icons{
+    display: flex;
+    column-gap: 25px;
+}
+
+
+
+.container{
+    position: relative;
+    top: 65px;
+    width: 100%;
+}
+.banner{
+    background-image: url(./FRONTEND/images.jpeg);
+}
+.banner h1{
+    color: #fff;
+}
